@@ -29,4 +29,12 @@ print("2.")
 name = input("Insert a name: ")
 print("Output: ", hello(name))
 
+#Task 3 - Create and implement 'print_hello(name)'
 
+def print_hello(name):
+    print(hello(name))
+
+print()
+print("3.")
+
+print_hello("Daniel")
